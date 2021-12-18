@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bookmaker.name %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @bookmaker.year %>
+</p>
+
+<%= link_to 'Edit', edit_bookmaker_path(@bookmaker) %> |
+<%= link_to 'Back', bookmakers_path %>
